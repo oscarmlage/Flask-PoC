@@ -5,6 +5,7 @@ requires = [
     'SQLAlchemy',
     'flask',
     'flask-admin',
+    'flask-sqlalchemy'
 ]
 
 tests_require = [
