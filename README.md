@@ -1,8 +1,10 @@
 # Flask Admin PoC
 
+## Install
+
 Minimal instructions to run the project:
 
-```
+```sh
 $ python -m venv flask-poc
 $ . flask-poc/bin/activate
 (flask-poc) $ pip install -e .
@@ -11,12 +13,12 @@ $ . flask-poc/bin/activate
 
 Go to http://127.0.0.1:5000/admin/ and enjoy.
 
-Running tests (with code coverage):
+## Utilities
 
-```
-$ . flask-poc/bin/activate
-(flask-poc) $ pip install -e .[testing]
-(flask-poc) $ py.test
-...
-$
-```
+- SQLAlchemy
+- Flask
+- Flask-Admin
+
+## Tests
+
+TBD
